@@ -77,7 +77,7 @@ Download the latest Leo release using a pre-built installer for your platform, a
 
 -----
 
-## 3. IDE Syntax Highlighting
+## IDE Syntax Highlighting
 
 Aleo maintains syntax highlighting implementations across different platforms.   
 If you do not see your favorite editor on this list, please reach out on [GitHub](https://github.com/AleoHQ/welcome/issues/new).

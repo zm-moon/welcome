@@ -14,7 +14,7 @@ The Leo CLI is a command line interface tool that comes equipped with the Leo co
 
 * `-d`, `--debug` - Enables debugging mode
 * `-h`, `--help` - Prints help information
-* `-V`, `--version` - Prints version information
+* `-v`, `--version` - Prints version information
 
 ## List of Commands:
 

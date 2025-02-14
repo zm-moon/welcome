@@ -24,6 +24,8 @@ hello/
   └── main.leo # The Leo source code
 ```
 
+When you run ⁠`leo run main <inputs>`⁠, Leo automatically creates an ⁠`output/`⁠ folder in the project directory.
+
 Let's run the project.
 
 ## Zero Knowledge in One Line

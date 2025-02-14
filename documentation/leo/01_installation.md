@@ -55,7 +55,7 @@ cargo --version
 
 You can build and install Leo from the source code as follows:
 
-```
+```bash
 # Download the source code
 git clone https://github.com/AleoHQ/leo
 cd leo
@@ -72,7 +72,7 @@ leo
 
 -----
 
-## 3. IDE Syntax Highlighting
+### IDE Syntax Highlighting
 
 Aleo maintains syntax highlighting implementations across different platforms.   
 If you do not see your favorite editor on this list, please reach out on [GitHub](https://github.com/AleoHQ/welcome/issues/new).

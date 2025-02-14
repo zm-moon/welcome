@@ -30,7 +30,7 @@ Download the latest Leo release using a pre-built installer for your platform, a
           2. Open a terminal and navigate to the extracted directory.  
           3. Run `chmod +x leo` to make the file executable.  
           4. Move `leo` to `/usr/local/bin` to use it system-wide.  
-          ```bash
+          ```
           mv leo /usr/local/bin
           ```
           5. Run `leo --version` to confirm installation.
@@ -50,13 +50,13 @@ Download the latest Leo release using a pre-built installer for your platform, a
         - **Install Rust:** [bit.ly/start-rust](https://bit.ly/start-rust)
 
         **Verify Installation**
-        ```bash
+        ```
         git --version
         cargo --version
         ```
 
         ### 2. Build Leo from Source Code
-        ```bash
+        ```
         # Download the source code
         git clone https://github.com/AleoHQ/leo
         cd leo
@@ -68,7 +68,7 @@ Download the latest Leo release using a pre-built installer for your platform, a
         This will generate the executable at `~/.cargo/bin/leo`.
 
         **To use Leo, run:**
-        ```bash
+        ```
         leo
         ```
     </TabItem>

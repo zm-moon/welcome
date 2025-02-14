@@ -64,5 +64,5 @@ See the [**Contributing Guide**](./leo/07_resources.md#contributing) for more in
 - [Basic Bank](./leo/10_basic_bank.md)
 - [Vote](./leo/11_vote.md)
 - [Token](./leo/12_token.md)
-- [TicTacToe](./leo13_tictactoe.md)
-- [Battleship](./leo14_battleship.md)
+- [TicTacToe](./leo/13_tictactoe.md)
+- [Battleship](./leo/14_battleship.md)

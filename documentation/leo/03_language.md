@@ -43,7 +43,7 @@ let b: u8 = 1u8;
 Underscores `_` can be used to separate digits in integer literals.
 
 ```leo
-let b: u8 = 1_000_000u64;
+let n: u64 = 1_000_000u64;
 ```
 
 :::info

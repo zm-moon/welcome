@@ -1019,7 +1019,7 @@ transition verify_field(s: signature, a: address, v: field) {
 
 #### Description
 
-Verifies that the signature `first` was signed by the address `second` with respect to the field `third`, storing the result in `destination`.
+Verifies that the signature `first` was signed by the address `second` with respect to the field `third`, storing the result in `destination`. This verification follows the [Schnorr signature scheme](https://en.wikipedia.org/wiki/Schnorr_signature), which is a digital signature algorithm where the signer generates a random nonce, commits to it, computes a challenge using a hash function, and produces a signature by combining the nonce, challenge, and private key. The verifier checks the validity by reconstructing the challenge and ensuring consistency with the public key and message.
 
 #### Supported Types
 

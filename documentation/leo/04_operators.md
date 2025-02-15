@@ -810,7 +810,7 @@ let a: bool = false.nor(false); // true
 
 #### Description
 
-Returns true when neither `first` nor `second` is true, storing the result in `destination`.
+Calculates the negated (inclusive) disjunction of `first` and `second`, storing the result in `destination`. The result is `true` if and only if both `first` and `second` are `false`.
 
 #### Supported Type
 
@@ -859,7 +859,7 @@ let b: bool = false.or(false); // false
 
 #### Description
 
-Performs an OR operation on integer (bitwise) or boolean `first` and `second`, storing the result in `destination`.
+Performs an inclusive OR operation on integer (bitwise) or boolean `first` and `second`, storing the result in `destination`.
 
 #### Supported Types
 

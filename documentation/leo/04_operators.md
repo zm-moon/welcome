@@ -1102,7 +1102,7 @@ let b: u8 = a.shr(1u8); // 1u8
 
 #### Description
 
-Shifts `first` right by `second` bits, storing the result in `destination`.
+Shifts `first` right by `second` bits, storing the result in `destination`. The operation halts if the shift distance exceeds the bit size of `first`.
 
 #### Supported Types
 

@@ -40,7 +40,6 @@ snarkvm run hello 2u32 3u32
 You will see output like this:
 
 ```bash
- • Loaded universal setup (in 1478 ms)
 
 ⛓  Constraints
 
@@ -66,7 +65,6 @@ snarkvm execute hello 2u32 3u32
 When the execution is finished, you should see the following output:
 
 ```bash
- • Loaded universal setup (in 1478 ms)
 
 ⛓  Constraints
 

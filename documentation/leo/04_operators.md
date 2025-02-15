@@ -18,6 +18,7 @@ The Leo operators compile down to [Aleo instructions opcodes](../aleo/04_opcodes
 | [assert](#assert)           | Assert boolean true                 |
 | [assert_eq](#assert_eq)     | Assert equality                     |
 | [assert_neq](#assert_neq)   | Assert non-equality                 |
+| [block.height](#block.height)| Fetch the latest block height      |
 | [div](#div)                 | Division                            |
 | [div_wrapped](#div_wrapped) | Wrapping division operation         |
 | [double](#double)           | Double                              |

@@ -783,9 +783,10 @@ let a: i8 = -1i8.neg(); // 1i8
 
 #### Description
 
-Negates `first`, storing the result in `destination`.
+Negates the first operand, storing the result in the destination.
 
-For signed integer types, calling `neg` on the minimum value is an invalid operation. For example, the input `-128i8` would not be valid since `128` cannot be represented as an `i8`.
+For signed integer types, the operation halts if the minimum value is negated. For example, `-128i8.neg()` halts since `128` cannot be represented as an `i8`.
+
 
 #### Supported Types
 

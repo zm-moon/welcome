@@ -15,7 +15,8 @@ This will create **foo** directory and the files with the basic structure of the
 
 - **README.md** having the skeleton of a README with instructions on how to compile.
 - **main.aleo** the main file of the source code.
-- **program.json** containing the identification of the project in JSON format. Particularly, a dev address and its private key for the program.
+- **.env** stores the environment variable for the program, including the <b>NETWORK</b> and <b>PRIVATE_KEY</b> which is auto-generated when creating a new leo program
+- **program.json** containing the identification of the project in JSON format and includes additional dependencies if added
 
 The main.aleo file should have contents like this:
 

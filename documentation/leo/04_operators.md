@@ -1067,11 +1067,14 @@ Shifts `first` left by `second` bits, storing the result in `destination`.
 
 ```leo
 let a: u8 = 128u8.shl_wrapped(1u8); // 0u8
+let b: i8 = 64i8.shl_wrapped(2u8); // -128i8
 ```
 
 #### Description
 
-Shifts `first` left by `second` bits, wrapping around at the boundary of the type, storing the result in `destination`.
+Shifts `first` left by `second` bits, wrapping around at the boundary of the type, storing the result in `destination`. The shift distance is masked to the bit width of `first`, ensuring that shifting by n is equivalent to shifting by `n % bit_size`. 
+
+If bits are shifted beyond the type's range, they are discarded, which may cause sign changes for signed integers.
 
 #### Supported Types
 

@@ -1186,7 +1186,7 @@ let a: field = 1field.square_root(); // 1field
 
 #### Description
 
-Computes the square root of the input, storing the result in `destination`.
+Computes the square root of the input, storing the result in `destination`. If the input is a quadratic residue, the function returns the `smaller` of the two possible roots based on modular ordering. If the input is not a quadratic residue, execution halts.
 
 #### Supported Types
 

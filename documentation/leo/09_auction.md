@@ -85,7 +85,7 @@ NETWORK=testnet
 PRIVATE_KEY=APrivateKey1zkpG9Af9z5Ha4ejVyMCqVFXRKknSm8L1ELEwcc4htk9YhVK
 ENDPOINT=https://localhost:3030
 " > .env
-```
+``` 
 
 Call the `place_bid` program function with bidder 1 and `10u64` arguments.
 

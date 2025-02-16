@@ -1207,7 +1207,7 @@ let b: u8 = a.sub(1u8); // 0u8
 
 #### Description
 
-Computes `first - second`, storing the result in `destination`.
+Computes `first - second`, storing the result in `destination`. The operation halts if the result is negative in an unsigned type or if it exceeds the minimum representable value in a signed type.
 
 #### Supported Types
 

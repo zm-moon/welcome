@@ -1,4 +1,4 @@
-## Leo documentation
+## Leo Documentation
 
 This repository serves as a public source for documentation source files about the Aleo network and the Leo language
 in particular. You can find them in readable form at [Developer Docs](https://docs.leo-lang.org/).
@@ -11,4 +11,4 @@ Other resources you may find helpful include
 - [🧰 Aleo SDK](https://provable.tools/) - A Software Development Kit (SDK) for Zero-Knowledge Transactions.
 - [🔭 Aleo Explorer](https://explorer.aleo.org) - Validate and broadcast on Aleo Testnet Beta
 
-You may also find it helpful to join us on [Discord](https://discord.com/invite/aleo) to ask or answer questions.
+You may also find it helpful to join the Aleo community on [Discord](https://discord.com/invite/aleo) to ask or answer questions.

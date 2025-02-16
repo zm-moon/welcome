@@ -79,8 +79,8 @@ Download the latest Leo release using a pre-built installer for your platform, a
 
 ## IDE Syntax Highlighting
 
-Aleo maintains syntax highlighting implementations across different platforms.   
-If you do not see your favorite editor on this list, please reach out on [GitHub](https://github.com/AleoHQ/welcome/issues/new).
+Aleo maintains syntax highlighting implementations across different platforms.
+If you do not see your favorite editor on this list, please reach out on [GitHub](https://github.com/ProvableHQ/welcome/issues/new).
 
 1. [Visual Studio Code](06_tooling.md#vs-code)
 2. [Sublime Text](06_tooling.md#sublime-text)

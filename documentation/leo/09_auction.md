@@ -8,7 +8,7 @@ title: A Private Auction using Leo
 A first-price sealed-bid auction (or blind auction) is a type of auction in which each participant submits a bid without knowing the bids of the other participants.
 The bidder with the highest bid wins the auction.
 
-In this model, there are two parties: the auctioneer and the bidders.
+In this model, there are two kinds of parties: the auctioneer and the bidders.
 - **Bidder**: A participant in the auction.
 - **Auctioneer**: The party responsible for conducting the auction.
 

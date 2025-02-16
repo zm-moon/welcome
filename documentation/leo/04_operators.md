@@ -1137,7 +1137,7 @@ let a: u8 = 128u8.shr_wrapped(7u8); // 1u8
 
 #### Description
 
-Shifts `first` right by `second` bits, wrapping around at the boundary of the type, storing the result in `destination`.
+Shifts `first` right by `second` bits, wrapping around at the boundary of the type, storing the result in `destination`.  The shift distance is masked to the bit width of `first`, ensuring that shifting by `n` is equivalent to shifting by `n % bit_size`.
 
 #### Supported Types
 

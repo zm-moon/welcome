@@ -58,5 +58,5 @@ Download the editor here: https://www.jetbrains.com/idea/download/.
 ### Install
 
 1. Download the [Aleo Developer Plugin](https://plugins.jetbrains.com/plugin/19890-aleo-developer) from JetBrains marketplace.
-2. Click on the gear icon in the upper right > Plugins > gear icon up top > Install Plugin from Disk > Select the downloaded zip file
+2. Click on the gear icon in the upper right > Plugins > gear icon up top > Install Plugin from Disk > Select the downloaded zip file.
 3. This will also allow you to see syntax highlighting for Aleo instructions. 
